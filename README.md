@@ -1,10 +1,10 @@
 # GBPUSD 1m OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-7_320_395_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)]() [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-8_760_483_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full GBPUSD dataset on ork.ad**](https://ork.ad/)
 
-**GBPUSD 1m OHLCV Forex historical data** — ultra high-quality one-minute OHLCV for **British Pound / US Dollar**. 24/5 FX liquidity with Asian, European and US sessions — not limited to US market hours. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**GBPUSD 1m OHLCV Forex historical data** — ultra high-quality 1m OHLCV for **British Pound / US Dollar**. 24/5 FX liquidity with Asian, European and US sessions — not limited to US market hours. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1-minute OHLCV** for **British Pound / US Dollar** (Forex)
+- **Ultra high-quality 1m OHLCV** for **British Pound / US Dollar** (Forex)
 - **24/5 FX liquidity with Asian, European and US sessions — not limited to US market hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m` only) · **13 timeframes** on [ork.ad](https://ork.ad/) · **7,320,395** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **8,760,483** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `GBPUSD_1m.csv` (184,976 rows, `2026-01-04` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **7,320,395** `1m` rows (~416.43 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2006-06-04` → `2026-07-02`.
+> **Sample on GitHub** · `GBPUSD_1m.csv` (186,300 rows, `2026-01-04` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **8,760,483** `1m` rows (~456.58 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2001-11-28` → `2026-07-03`.
 
 ## Download sample
 
@@ -43,16 +43,16 @@ Interactive chart & stats: **[https://ork-ad.github.io/gbpusd-1m-ohlcv-forex-his
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
 | Instrument | British Pound / US Dollar · Forex | British Pound / US Dollar · Forex |
-| Timeframes | `1m` only (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1m rows | 184,976 | **7,320,395** |
-| Size | 10.78 MB | ~416.43 MB |
-| Period | `2026-01-04` → `2026-07-02` | `2006-06-04` → `2026-07-02` |
+| Timeframes | `1m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
+| 1m rows | 186,300 | **8,760,483** |
+| Size | 10.02 MB | ~456.58 MB |
+| Period | `2026-01-04` → `2026-07-03` | `2001-11-28` → `2026-07-03` |
 | File | `GBPUSD_1m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
 ## Timeframes on ork.ad
 
-This GitHub repository ships a **1-minute (`1m`) evaluation sample** only. On **[ork.ad](https://ork.ad/)**, each full asset archive is delivered as a ZIP with **13 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`1m` evaluation sample** only. On **[ork.ad](https://ork.ad/)**, each full asset archive is delivered as a ZIP with **13 gap-free OHLCV timeframes** (one CSV per timeframe):
 
 **1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **2H** · **4H** · **8H** · **12H** · **16H** · **1D** · **1W**
 
@@ -61,7 +61,7 @@ GitHub = `1m` sample · [ork.ad](https://ork.ad/) = all **13** timeframes above 
 ## Weekly updates
 
 - **[ork.ad](https://ork.ad/)** — Full datasets on ork.ad are updated every Sunday.
-- **GitHub (this repo)** — GitHub 1m samples are refreshed weekly (every Sunday), in sync with ork.ad.
+- **GitHub (this repo)** — GitHub samples are refreshed weekly (every Sunday), in sync with ork.ad.
 
 When a new `1m` sample is published on GitHub, the README, chart preview and CSV reflect the latest week of data.
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`GBPUSD_1m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-04T22:05:00Z | 1.345053 | 1.345053 | 1.34441 | 1.344433 | 21 |
-| 2026-01-04T22:06:00Z | 1.344433 | 1.344443 | 1.344433 | 1.344433 | 10 |
-| 2026-01-04T22:07:00Z | 1.344433 | 1.344493 | 1.344433 | 1.344493 | 13 |
-| 2026-01-04T22:08:00Z | 1.344493 | 1.344493 | 1.344313 | 1.344433 | 20 |
-| 2026-01-04T22:09:00Z | 1.344433 | 1.344463 | 1.344433 | 1.344433 | 6 |
+| 2026-01-04T22:05:00Z | 1.34516 | 1.34516 | 1.3445 | 1.34454 | 21 |
+| 2026-01-04T22:06:00Z | 1.34454 | 1.34455 | 1.34454 | 1.34454 | 10 |
+| 2026-01-04T22:07:00Z | 1.34454 | 1.3446 | 1.34454 | 1.3446 | 13 |
+| 2026-01-04T22:08:00Z | 1.3446 | 1.3446 | 1.34442 | 1.34454 | 20 |
+| 2026-01-04T22:09:00Z | 1.34454 | 1.34457 | 1.34454 | 1.34454 | 6 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T22:16:00Z | 1.33481 | 1.33485 | 1.33476 | 1.33483 | 17.00 |
-| 2026-07-02T22:17:00Z | 1.33483 | 1.33484 | 1.3348 | 1.33482 | 4.00 |
-| 2026-07-02T22:18:00Z | 1.33482 | 1.33482 | 1.33478 | 1.33482 | 4.00 |
-| 2026-07-02T22:19:00Z | 1.33482 | 1.33482 | 1.33477 | 1.33481 | 7.00 |
+| 2026-07-03T20:54:00Z | 1.33501 | 1.335 | 1.33494 | 1.33499 | 88 |
+| 2026-07-03T20:55:00Z | 1.33499 | 1.335 | 1.33469 | 1.33469 | 30 |
+| 2026-07-03T20:56:00Z | 1.33469 | 1.33471 | 1.33467 | 1.33469 | 13 |
+| 2026-07-03T20:57:00Z | 1.33469 | 1.33469 | 1.33447 | 1.33447 | 1 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **GBPUSD** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **7,320,395** rows at `1m`, plus all higher timeframes in the same ZIP.
+The complete **GBPUSD** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **8,760,483** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full GBPUSD dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · GBPUSD 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-03 UTC*
+*GetData · GBPUSD 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
